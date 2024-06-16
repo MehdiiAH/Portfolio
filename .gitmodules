@@ -1,0 +1,4 @@
+[submodule "terminal-portfolio/public"]
+	path = terminal-portfolio/public
+	url = https://github.com/MehdiiAH/mehdiiah.github.io.git
+	branch = main

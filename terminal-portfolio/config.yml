@@ -1,0 +1,174 @@
+## Example Config file
+baseURL: "https://mehdiiah.github.io/"
+theme: "terminalcv"
+title: "Mehdi AIT HAMMA Portfolio"
+
+params:
+  description: "Mehdi AIT HAMMA Portfolio"
+  prompt: "newuser@terminal-portfolio"
+  exitLocation: 'about:blank'
+  source: false
+  greeting: | 
+    Welcome to Mehdi AIT HAMMA portfolio
+
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+    # settings:
+    #   useLess: true
+    details:
+      name: "Mehdi AIT HAMMA"
+      location: "France"
+      email: "aithamma@et.esiea.fr"
+      homelink: "https://mehdiiah.github.io/"
+      description: |
+              4th year student at ESIEA Graduate School of Engineering and in apprenticeship at BPCE-IT
+
+  social:
+    # settings:
+    #   useLess: true
+    #   hideName: true
+    details:
+    - name: "github"
+      url: "https://github.com/MehdiiAH"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/mehdi-aithamma"
+
+  work:
+    # settings:
+    #   useLess: true
+    details:
+    - jobTitle: Machine Learning & Sofware Developer Apprentice
+      color: purple
+      company: 'BPCE-IT' 
+      location: Charenton-le-Pont, France
+      date: August 2023 - Present
+      description: |
+              • Developed and implemented a machine learning model with Prophet to predict disk saturation in database servers, 
+                significantly enhancing predictive maintenance capabilities of the database administration teams.
+              • Contributed to a front-end and back-end application using Flask, Angular and MongoDB
+                which streamlined database administration processes.
+
+    - jobTitle: Software Developer Intern
+      color: purple
+      company: 'BPCE-IT'
+      location: Charenton-le-Pont, France
+      date: April 2022  - June 2022
+      description: |
+              • Participated in the migration of the security team's website platform from PHP to Angular, 
+                improving the responsiveness of the interface and the user experience.
+
+  education:
+    details:
+    - courseName: ESIEA Graduate School of Engineering, Paris
+      color: blue
+      date: 2022 – 2025
+      description: |
+              Enrolled in the Artificial Intelligence & Data Science specialization at ESIEA, 
+              a 5-year, top-ranked engineering school specialized in Digital Sciences and Technologies, 
+              complemented by participation in an Apprenticeship & Study program at BPCE-IT. 
+              The school delivers an engineering degree equivalent to a Master of Science.
+
+    - courseName: Two-year university degree in technology in Computer Science
+      color: blue
+      date: 2020 - 2022
+      description: University institute of technology (IUT) of Montreuil
+
+    - courseName: Bachelor of Science in Biology
+      color: blue
+      date: 2019 – 2020
+      description: University of Évry - Paris-Saclay University
+
+  skills:
+    #settings:
+    #  useLess: true
+    details:
+    - name: Software Development
+      color: green
+      description:  Python, C, Java, JavaFX, R, Git, Unix
+
+    - name: Back-end Web
+      color: green
+      description: Flask, PHP, PostgreSQL, MySQL, MongoDB
+
+    - name: Front-end Web
+      color: green
+      description: HTML, CSS, Javascript/Typescript, Angular, Vue, Hugo
+
+    - name: Machine Learning
+      color: green
+      description: TensorFlow, Keras, OpenCV, Prophet
+
+  languages:
+    # settings:
+    #   useLess: true
+    details:
+    - name: French
+      description: Native
+
+    - name: English
+      description: Professioonal working profiency (TOEIC 950/990)
+
+
+  projects:
+    # settings:
+    #   useLess: true
+    details:
+    - title: Command-Line Style Portfolio
+      color: red
+      date: 06/2024
+      link: https://mehdiiah.github.io/
+      description: |
+            Technology : Hugo
+            Developed a personal portfolio website using Hugo with a terminal-style interface. 
+            Users interact with the site by typing commands to navigate through sections, 
+            engaging user experience reminiscent of a command-line environment.
+  
+    - title: Robotics Project (Poppy), University Project
+      color: red
+      date: 03/2023 – 06/2023
+      description: |
+            Technology : Python, OpenCV, CoppeliaSim, Raspberry Pi
+            Enhanced an open-source robotics project, Poppy, as part of a PST project at ESIEA’s DTRE club. 
+            Implemented object recognition using OpenCV and programmed movement behaviors in Python. 
+            Utilized CoppeliaSim for simulation and integrated a Raspberry Pi to manage real-time robotic operations.
+
+    - title: PokéViewer Mobile App
+      color: red
+      date: 05/2023 – 06/2023
+      link: https://github.com/MehdiiAH/DevMobilePokemon
+      description: |
+            Technology : Cordova, Vue
+            Developed a mobile application using Cordova that interfaces with the PokeAPI to display a list of Pokémon. 
+            The app features functionality for navigating through Pokémon lists, viewing detailed descriptions, and managing data persistence. 
+            Additional interactive elements include audio playback upon user interaction and device vibration for specific Pokémon actions.
+
+    - title: Deep Learning Pokedex
+      color: red
+      date:  01/2022 - 03/2022
+      link: https://github.com/MehdiiAH/Pokedex
+      description: |
+            Technology : Python, TensorFlow, Keras
+            Developed a Pokedex using TensorFlow and Keras, leveraging the ResNet50 architecture for deep learning-based image classification. 
+            Users can upload images of Pokémon, and the system accurately identifies and names the Pokémon.
+
+    - title: Recettuto
+      color: red
+      date: 11/2021 – 01/2022
+      link: https://github.com/MehdiiAH/Recettuto
+      description: |
+            Technology : PHP, AJAX, Bootstrap, MySQL
+            Worked in a team of three to develop "Recettuto" a cooking website from scratch. 
+            Responsibilities included designing the MySQL database and implementing the site using PHP, AJAX, 
+            and Bootstrap to ensure a responsive and user-friendly interface for sharing and discovering recipes.
+
+    - title: Zombie Apocalypse
+      color: red
+      date:  04/2021 - 06/2021
+      description: |
+            Technology : Java, JavaFX
+            Collaborated in a team of three to create a top-down, Zelda-like game called Zombie Apocalypse. 
+            Utilized object-oriented programming in Java and JavaFX to build an interactive world 
+            where players battle enemies and solve puzzles.
